@@ -1,17 +1,17 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
-* main - Entry point
+* main - entry point
 *
-* Return: Always 0
+* Return: always return 0
 */
 int main(void)
 {
-int ch;
-for (ch = '97'; ch <= '122'; ch++)
-putchar(ch);
-for (ch = '65'; ch <= '90'; ch++)
-putchar(ch);
-putchar(10); /* this is an ascil code for new line*/
-
+char a;
+for (a = 'a'; a <= 'z'; a++)
+putchar(a);
+for (a = 'A'; a <= 'Z'; a++)
+putchar(a);
+putchar('\n');
+putchar(0);
 return (0);
 }
