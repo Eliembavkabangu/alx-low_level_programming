@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
 * main - Entry point
 *
@@ -7,9 +6,11 @@
 */
 int main(void)
 {
-char letter;
-for (letter = 'a'; letter <= 'z'; letter++)
-putchar(letter);
+char a;
+for (a = 'a'; a <= 'z'; a++)
+putchar(a);
+for (a = 'A'; a <= 'z'; a++)
+putchar(a);
 putchar('\n');
 return (0);
 }

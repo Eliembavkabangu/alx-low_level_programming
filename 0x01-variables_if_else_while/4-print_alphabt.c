@@ -1,17 +1,18 @@
 #include <stdio.h>
-
 /**
-* main - Entry poimt
+*main - entry point
 *
-* Return: Always 0
+* Return: always returns 0
 */
 int main(void)
 {
-char letter;
-for (letter = 'a'; letter <= 'z'; letter++)
-putchar(letter);
-for (letter = 'A'; letter <= 'Z'; letter++)
-putchar(letter);
-putchar('\n');
+char a;
+for (a = 'a'; a <= 'z'; a++)
+{
+if(a == 'q' || a == 'e')
+{
+continue;
+}
+putchar (a);
 return (0);
 }
