@@ -6,11 +6,12 @@
 */
 int main(void)
 {
-char a;
-for (a = 'a'; a <= 'z'; a++)
-putchar(a);
-for (a = 'A'; a <= 'z'; a++)
-putchar(a);
-putchar('\n');
+int ch;
+for (ch = '97'; ch <= '122'; ch++)
+putchar(ch);
+for (ch = '65'; ch <= '90'; ch++)
+putchar(ch);
+putchar(10); /* this is an ascil code for new line*/
+
 return (0);
 }
