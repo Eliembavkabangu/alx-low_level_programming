@@ -3,9 +3,10 @@
 */
 void print_alphabet(void)
 {
-for (char letter = 'a'; letter <= 'z'; letter++)
+int b;
+for (b = 'a'; b <= 'z'; b++)
 {
-_putchar(letter);
+_putchar(b);
 }
 _putchar("\n");
 }
