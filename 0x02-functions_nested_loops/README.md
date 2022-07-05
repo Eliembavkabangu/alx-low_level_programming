@@ -1,1 +1,1 @@
-function that prints 10 times the alphabet, in lowercase, followed by a new line
+function that computes the absolute value of an integer.
