@@ -1,1 +1,1 @@
-0x04-more_functions_nested_loops
+function that draws a diagonal line on the terminal
